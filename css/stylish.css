@@ -1,0 +1,127 @@
+/* latin */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/quicksand400.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../fonts/quicksand500.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+  background-color: #282828;
+  color: #e8dbbb;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.mainer-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 600px;
+  margin-top: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+}
+
+.navigation-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.navigation-menu ul {
+  display: flex;
+  list-style: none;
+  list-style-type: none;
+  padding: 0;
+}
+
+/* accessibility fix per https://developer.mozilla.org/en-US/docs/Web/CSS/list-style */
+.navigation-menu ul li::before {
+  content: "\200B";
+}
+
+.navigation-menu a {
+  text-decoration: none;
+  color: #e44977;
+}
+
+.navigation-menu a:hover {
+  color: #75eab6;
+}
+
+h1 {
+  color: #e44977;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 0rem;
+  margin-top: 1rem;
+  text-transform: uppercase;
+}
+
+.face {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.hashtags {
+  margin-top: 0.5rem;
+}
+
+.games {
+  color: #40b8e1;
+  padding: 0.2rem;
+}
+
+.brains {
+  padding: 0.2rem;
+  color: #abe65b;
+}
+
+.ledzeppelin {
+  padding: 0.2rem;
+  color: #75eab6;
+}
+
+.blurb {
+  text-align: center;
+}
+
+.jobtitle {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  color: #e44977;
+}
+
+.description {
+  letter-spacing: 0.01rem;
+}
+
+.quote {
+  color: #e44977;
+  font-style: italic;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}

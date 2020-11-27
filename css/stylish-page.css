@@ -1,0 +1,147 @@
+/* latin */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/quicksand400.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../fonts/quicksand500.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+  background-color: #282828;
+  color: #e8dbbb;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.mainer-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 600px;
+  margin-top: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+}
+
+.header-container {
+  max-width: 400px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (min-width: 600px) {
+  .header-container {
+    width: 100%;
+    max-width: 600px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  .navigation-menu {
+    position: static !important;
+  }
+}
+
+.header-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header-logo {
+  width: 50px;
+  height: 57px;
+}
+
+.header-name {
+  margin: 0;
+  padding-left: 5px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.navigation-menu {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin: 0;
+}
+
+.navigation-menu ul {
+  list-style: none;
+  list-style-type: none;
+  padding: 0;
+}
+
+.navigation-menu ul li {
+  float: left;
+}
+
+/* accessibility fix per https://developer.mozilla.org/en-US/docs/Web/CSS/list-style */
+.navigation-menu ul li::before {
+  content: "\200B";
+}
+
+a {
+  text-decoration: none;
+  color: #e44977;
+}
+
+a:hover {
+  color: #75eab6;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.32rem;
+  margin-bottom: 0rem;
+  margin-top: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #abe65b;
+}
+
+h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 0rem;
+  color: #abe65b;
+}
+
+.main-text p {
+  margin-bottom: 1rem;
+  letter-spacing: 0.01rem;
+}
+
+.cogsci-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
