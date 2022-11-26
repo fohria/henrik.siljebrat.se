@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://henrik.siljebrat.se/</loc>
+  <lastmod>2022-11-26T14:25:15+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://henrik.siljebrat.se/research.html</loc>
+  <lastmod>2022-11-26T14:25:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://henrik.siljebrat.se/cv.html</loc>
+  <lastmod>2022-11-26T14:25:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://henrik.siljebrat.se/projects.html</loc>
+  <lastmod>2022-11-26T14:25:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://henrik.siljebrat.se/contact.html</loc>
+  <lastmod>2022-11-26T14:25:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://henrik.siljebrat.se/index.html</loc>
+  <lastmod>2022-11-26T14:25:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://henrik.siljebrat.se/files/siljebrat_et_al-2018-towards_human_like_artificial_intelligence.pdf</loc>
+  <lastmod>2020-11-27T12:40:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://henrik.siljebrat.se/files/siljebrat_pickering-2020-state_representations_shape_sequence_task.pdf</loc>
+  <lastmod>2020-11-27T12:40:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://henrik.siljebrat.se/files/siljebrat_cv.pdf</loc>
+  <lastmod>2022-10-10T12:22:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
