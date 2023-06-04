@@ -10,16 +10,12 @@
   .header-container {
     width: 100%;
     max-width: 600px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin-bottom: 2rem;
   }
-  .navigation-menu {
-    position: static !important;
-  }
-}
 
-.header-left {
+.header-title {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -27,8 +23,9 @@
 }
 
 .header-logo {
+  border-radius: 50%;
   width: 50px;
-  height: 57px;
+  height: 50px;
 }
 
 .header-name {
@@ -39,23 +36,19 @@
   font-size: 1.2rem;
 }
 
-.navigation-menu {
-  position: relative;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-evenly;
-  flex-direction: row;
-  margin: 0;
+nav {
+  margin-bottom: 1rem;
+  width: 100%;
+  max-width: 400px;
 }
 
-.navigation-menu ul {
+.navigation-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   list-style: none;
   list-style-type: none;
   padding: 0;
-}
-
-.navigation-menu ul li {
-  float: left;
 }
 
 /* accessibility fix per https://developer.mozilla.org/en-US/docs/Web/CSS/list-style */
@@ -82,6 +75,7 @@ h1 {
   text-transform: uppercase;
   text-align: center;
   color: #abe65b;
+/*  color: #75eab6;*/
 }
 
 h2 {
@@ -91,6 +85,7 @@ h2 {
   margin-top: 3rem;
   margin-bottom: 0rem;
   color: #abe65b;
+/*  color: #75eab6;*/
 }
 
 .main-text p {
