@@ -35,6 +35,12 @@ h1 {
   text-transform: uppercase;
 }
 
+h2 {
+  font-size: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
 .face {
   border-radius: 50%;
   width: 150px;
@@ -69,7 +75,7 @@ h1 {
 /*    color: #f25682;*/
   color: #e8dbbb;
   font-style: italic;
-  margin-top: 3rem;
+  margin-top: 0rem;
   margin-bottom: 1rem;
 /*  max-width: 400px;*/
   margin-left: auto;
