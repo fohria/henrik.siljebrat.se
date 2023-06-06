@@ -1,19 +1,13 @@
 .header-container {
-  max-width: 400px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  width: 100%;
+  max-width: 600px;
   justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
 }
-
-@media screen and (min-width: 600px) {
-  .header-container {
-    width: 100%;
-    max-width: 600px;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 2rem;
-  }
 
 .header-title {
   display: flex;
